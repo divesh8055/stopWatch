@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" type="text/css" href="styling.css" media="screen"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;1,200&family=Exo:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="heading_1">Stop Watch</h1>
+
+    <div id="clock">
+        <div id="hour">
+            00
+        </div>
+        <span id="dot">:</span>
+        <div id="minute">
+            00
+        </div>
+        <span id="dot">:</span>
+        <div id="second">
+            00
+        </div>
+        <span id="dot">:</span>
+        <div id="millisecond">
+            00
+        </div>
+    </div>
+
+    <div id="buttons">
+        <div id="buttonx" onclick="startFunction()">
+            <button id="button_1">
+                Play
+            </button>
+        </div>
+        <div id="buttonx" onclick="pauseFunction()">
+            <button id="button_2">
+                Pause
+            </button>
+        </div>
+        <div id="buttonx" onclick="resetFunction()">
+            <button id="button_3">
+                Reset
+            </button>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

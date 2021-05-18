@@ -1,0 +1,76 @@
+body{
+    background: url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-right: 40%;
+}
+
+#buttons{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 800px;
+    padding: 100px 10px;
+}
+
+#button_1, #button_2, #button_3{
+    background-color: lightgray;
+    color: black;
+    padding: 15px 32px;
+    font-size: 23px;
+    font-weight: "200";
+    size: "20px";
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Exo', sans-serif;
+}
+
+#button_1:hover, #button_2:hover, #button_3:hover{
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+    font-weight: "200";
+    size: "20px";
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+#heading_1{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+    color: antiquewhite;
+}
+
+#clock{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+#hour, #minute, #second, #millisecond{
+    color: yellow;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    border: none;
+    font-size: 30px;
+}
+
+#dot{
+    color: brown;
+    padding: 20px 20px;
+    font-size: 30px;
+}
